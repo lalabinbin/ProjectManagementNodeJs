@@ -1,0 +1,20 @@
+// tạo project
+# POST  http://localhost:3001/api/localhost:3001/api/users
+# content-type: application/json
+
+# {
+#     "name": "Project 1",
+#     "description": "This is a project",
+#     "status": "pending",
+#     "owner": "659f1f2f2d1f2a0012345678"
+# }
+
+POST  http://localhost:3001/api/users
+content-type: application/json
+
+{
+    "name": "Project 1",
+    "email": "project1@example.com",
+    "password": "123456",
+    "role": "admin"
+}
